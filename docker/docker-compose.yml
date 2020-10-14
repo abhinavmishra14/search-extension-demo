@@ -38,7 +38,7 @@ services:
     volumes:
       - search-extension-demo-db-volume:/var/lib/postgresql/data
   search-extension-demo-ass:
-    image: alfresco/alfresco-search-services:1.4.2.2
+    image: alfresco/alfresco-search-services:1.4.3.2
     environment:
       #Solr needs to know how to register itself with Alfresco
       - SOLR_ALFRESCO_HOST=search-extension-demo-acs
